@@ -173,4 +173,4 @@ async def queue(ctx : commands.Context):
         em.add_field(name=f"Song# {song_count}", value=f"{song.title}")
     return await ctx.send(embed=em)
 
-bot.run('OTUyOTcxMjc4MjUwMjk1Mjk3.Yi9xqg.XhaRhmfV2zJkFVfeG0aI8Ch3C6s')
+bot.run('YOUR-TOKEN')
